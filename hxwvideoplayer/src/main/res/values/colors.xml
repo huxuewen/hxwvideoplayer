@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- base -->
+    <color name="black">#000000</color>
+    <color name="orange">#FF9900</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="text_color">#A9A9A9</color>
+    <!-- 背景颜色 -->
+    <color name="backGroundColor">#FFFFFF</color>
+
+    <!-- 字体颜色 -->
+    <color name="textColorPrimary">@android:color/primary_text_light</color>
+    <color name="textColorSecondary">@android:color/secondary_text_light</color>
+    <color name="textColorPrimaryLight">@android:color/primary_text_light</color>
+    <color name="textColorPrimaryDark">@android:color/primary_text_dark</color>
+    <color name="textColorSecondaryLight">@android:color/secondary_text_light</color>
+    <color name="textColorSecondaryDark">@android:color/secondary_text_dark</color>
+</resources>

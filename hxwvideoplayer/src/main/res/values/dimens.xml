@@ -1,0 +1,15 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- jzvd自定义控件 -->
+    <dimen name="jzvd_custom_width">32dp</dimen>
+    <dimen name="jzvd_custom_height">32dp</dimen>
+    <dimen name="jzvd_margin_top">12dp</dimen>
+    <dimen name="jzvd_margin_left">12dp</dimen>
+    <dimen name="jzvd_margin_right">12dp</dimen>
+
+    <!-- 图标 -->
+    <dimen name="icon_width">48dp</dimen>
+    <dimen name="icon_height">48dp</dimen>
+    <dimen name="icon_padding">5dp</dimen>
+</resources>

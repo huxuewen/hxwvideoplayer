@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="@color/backGroundColor"
+        android:orientation="vertical"
+        tools:context="com.hxw.hxwvideoplayer.ui.HxwVideoPlayerActivity">
+
+    <com.hxw.hxwvideoplayer.ui.SimpleJzvd
+            android:id="@+id/jz_video"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+
+	<!--<com.hxw.haojumao.ui.component.jzvd.SimpleJzvd
+			android:id="@+id/jz_video"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+            android:layout_weight="1"/>-->
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="投屏"
+                android:background="@color/backGroundColor"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:textColor="@color/textColorPrimary">
+        </TextView>
+
+        <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <ProgressBar
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="40dp"
+                    android:indeterminate="true"></ProgressBar>
+
+            <TextView
+                    android:id="@+id/cast_screen_search"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="搜索中..."
+                    android:textColor="@color/textColorPrimary"></TextView>
+        </FrameLayout>
+
+        <ListView
+                android:background="@color/backGroundColor"
+                android:id="@+id/cast_screen_list"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:visibility="visible">
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

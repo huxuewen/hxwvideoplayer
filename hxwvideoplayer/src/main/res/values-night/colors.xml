@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 字体颜色 -->
+    <color name="textColorPrimary">@android:color/primary_text_dark</color>
+    <color name="textColorSecondary">@android:color/secondary_text_dark</color>
+
+    <!-- 背景颜色 -->
+    <color name="backGroundColor">#212121</color>
+</resources>
